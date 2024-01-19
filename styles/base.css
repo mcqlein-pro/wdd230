@@ -34,6 +34,11 @@ nav ul {
     background-color: #46596e;
     text-align: center;
     padding: 10px;
+
+    /* Flexbox for navigation */
+    display: flex;
+    flex-direction: column;
+    /* Display links in a single column by default */
 }
 
 nav a {
@@ -85,4 +90,5 @@ footer {
 
 h2 {
     text-align: center;
+    justify-content: center;
 }

@@ -1,0 +1,35 @@
+/* larger.css */
+@media screen and (min-width: 600px) {
+  /* Adjust body font size for larger views */
+  body {
+    font-size: 18px;
+  }
+
+  /* Flexbox for navigation links */
+  nav ul {
+    flex-direction: row;
+    justify-content: space-around; /* Even spaces between items */
+  }
+
+  nav a {
+    margin: 0;
+  }
+
+  /* Flexbox for main sections */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* Adjust card width for larger views */
+  .card {
+    width: 48%;
+  }
+
+  h2 {
+      padding: 20px ;
+      justify-content: center;
+      /* Adjust margin for spacing */
+  }
+}
